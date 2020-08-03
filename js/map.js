@@ -7,7 +7,7 @@
 
   var margin = {
     top: 10,
-    bottom: 50,
+    bottom: 100,
     left: 130,
     right: 10
   }
