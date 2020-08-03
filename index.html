@@ -50,7 +50,7 @@
           text-anchor: middle;
       }
 
-        .mainView{
+        .airlineview{
             display: flex;
         }
 
@@ -78,7 +78,15 @@
       <div id="title_text">
         <h1>Analysis of Flights </h1>
         <p>This visualization is a narrative visualization for the user to explore the dataset of OpenFlights. </p>
-        <p> The dataset contains separate csvs of Airport data, Airline data and Route data, and a json providing countries details for map. </p
+        <p> The dataset contains separate csvs of Airport data, Airline data and Route data, and a json providing countries details for map. </p>
+        <h2>Messaging</h2>
+        <p>In this narrative visualization, the user can explore details on airport flights, their sources and destinations, and the flights between them. </p>
+        <p>Thus, the messaging is that of the analysis of airline data, with annotations and instructions in each scene.</p>
+        <h2>Narrative Structure</h2>
+        <p>The narrative structure is that of an interactive slideshow. </p>
+        <p>The scenes allow the ordering of a user-directed path in all three scenes. </p>
+        <p>The user can go to previous and the next bookmarks, as well as drill down and drill up in all the three scenes. </p>
+        <p>So, this is a hybrid structure of interactive visualization, with each scene providing the user the opportunity to form focused queries with a focus on the message.</p>
         </div>
     </div>
 
@@ -90,7 +98,9 @@
         <p>With 3 separate raw data csvs, the dataset was cleaned using Openrefine and merged into one single csv and filtered for the top 32 airlines. </p>
         <h2>How to use</h2>
         <p>The user can click on any of the bars and it will show the associated flights in the map.</p>
-        <div class="mainView">
+        <h2>Visual Structure</h2>
+        <p>The user can navigate the scene by clicking on any of the bars for the airlines to drill down to look at the concentration of flights associated with that airline</p>
+        <div class="airlineview">
           <div>
               <h2>Airlines</h2>
               <svg id="AirlinesChart"></svg>
