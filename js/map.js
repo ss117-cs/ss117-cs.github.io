@@ -3,11 +3,11 @@
   var countriesJson=d3.json("data/raw_data/countries.geo.json")
 
   var width =  600;
-  var height = 400;
+  var height = 200;
 
   var margin = {
     top: 10,
-    bottom: 250,
+    bottom: 50,
     left: 130,
     right: 10
   }
